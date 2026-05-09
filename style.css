@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  height: 100px;
+}
+.nav-items {
+  display: flex;
+  gap: 90px;
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+}
+
+.button {
+  padding: 10px 20px;
+
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 10px;
+  border-color: rgba(70, 69, 69, 0.331);
+  background-color: rgb(72, 72, 72);
+  transition: all 0.6s ease;
+}
+.button:hover {
+  background-color: #fc4708;
+}
+.h1 {
+  font-size: 150px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  margin-top: 3%;
+  margin-bottom: 50px;
+  transition: all 0.6s ease;
+  cursor: pointer;
+}
+.h1:hover {
+  color: #fc4708;
+}
+.p {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.p:hover {
+  color: #fc4708;
+  text-decoration: underline;
+}
+.mid-section-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5%;
+}
+.mid-buttons {
+  padding: 15px 24px;
+
+  background-color: #4e4e4d;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.mid-buttons:nth-child(1) {
+  background-color: #fc4708;
+}
+.mid-buttons:hover {
+  background-color: #fc4708;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 1%;
+  margin-top: 4%;
+}
+.card-image {
+  width: 400px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+  object-position: 0% 5%;
+  cursor: pointer;
+}
+#card-2 {
+  object-position: 0% 45%;
+}
+.name {
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  width: 80px;
+  border-style: solid;
+  border-width: 2px;
+  background-color: #5e2009;
+  padding-left: 20px;
+  border-radius: 20px;
+  color: orangered;
+  padding-top: 10px;
+  padding-left: 16px;
+  padding-bottom: 10px;
+  margin-left: 13px;
+  cursor: pointer;
+}
+.card:nth-child(3) .name {
+  width: 120px;
+}
+.last-para {
+  font-size: 26px;
+  font-family: "Inter", sans-serif;
+  margin-top: 4%;
+  margin-left: 13px;
+  background-color: #0e0e0e;
+  cursor: pointer;
+}
+.date {
+  font-family: "Inter", sans-serif;
+  margin-top: 5%;
+  font-size: 14px;
+  color: #8f8c8c;
+  margin-left: 13px;
+  background-color: #0e0e0e;
+  cursor: pointer;
+}
+.card {
+  background-color: #0e0e0e;
+}
